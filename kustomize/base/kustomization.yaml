@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: cyberbird20/hello-gitops
-  newTag: 6083563b6d165d372ef3df9377ad31cc5e40db13
+  newTag: 2a4664a250128c023cf9b0830aff5d0d2509c8f8
