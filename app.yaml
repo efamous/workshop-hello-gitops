@@ -9,8 +9,6 @@ spec:
     repoURL: https://github.com/efamous/workshop-hello-gitops
     targetRevision: HEAD
     path: kustomize/base
-    directory:
-      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: hello-gitops
