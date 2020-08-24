@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/efamous/workshop-hello-gitops
+    repoURL: https://github.com/efamous/workshop-hello-gitops.git
     targetRevision: HEAD
     path: kustomize/base
   destination:
