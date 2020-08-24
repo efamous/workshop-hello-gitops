@@ -20,5 +20,10 @@ spec:
           ports:
             - name: http
               containerPort: 8080
-      imagePullSecrets:
-      - name: registry-esys
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
